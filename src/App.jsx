@@ -9,7 +9,7 @@ import Thickshakes from "./Thickshakes";
 import "./App.css"; // Import the CSS file
 
 import Home from "./Home";
-import Cart from "./cart";
+import Cart from "./Cart";
 import { useSelector } from "react-redux";
 import Orders from "./Orders";
 
