@@ -1,0 +1,207 @@
+/* General Container */
+.cart-container {
+  padding: 0px;
+  /* background-color: #f5f7fa; */
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Cart Table */
+.cart-table {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  margin: 0 auto 30px auto;
+  max-width: 900px; /* ↓ reduced width */
+  width: 100%;
+}
+
+
+
+.cart-header {
+  display: grid;
+  grid-template-columns: 101px 2fr 129px 119px 119px;
+
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.cart-row {
+  display: grid;
+  grid-template-columns: 98px 2fr 126px 240px 0px;
+
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.cart-header {
+  font-weight: bold;
+  background-color: #f0f4f8;
+  border-radius: 8px;
+  padding: 15px 0;
+}
+
+.cart-col {
+  text-align: center;
+  padding: 5px;
+}
+
+.image-col img {
+  max-width: 80px;
+  max-height: 80px;
+  border-radius: 8px;
+}
+
+/* Buttons inside table */
+.cart-col button {
+  margin: 0 4px;
+  padding: 6px 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cart-col button:hover {
+  background-color: #2c80b4;
+}
+
+/* Summary Box */
+.summary-box {
+  background: linear-gradient(to bottom right, #fae1e1, #f8f4f2);
+  border-radius: 14px;
+  padding: 30px 25px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.summary-box h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-size: 24px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 18px;
+  color: #34495e;
+}
+
+.summary-row.final {
+  font-size: 20px;
+  font-weight: 600;
+  color: #27ae60;
+}
+
+.summary-box hr {
+  border: none;
+  border-top: 1px dashed #ccc;
+  margin: 20px 0;
+}
+
+/* Coupon Section */
+.summary-box input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.summary-box button {
+  padding: 10px 16px;
+  margin-right: 10px;
+  margin-top: 8px;
+  background-color: #2980b9;
+  color: #fdf7f7;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.summary-box button:hover {
+  background-color: #1f6391;
+}
+
+.summary-box h4 {
+  color: #9b59b6;
+  font-size: 16px;
+  margin-top: 12px;
+}
+ /* Coupon Section */
+.coupon-section {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.coupon-section input[type="text"] {
+  padding: 10px 15px;
+  flex: 1;
+  min-width: 200px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  font-size: 16px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.coupon-section input[type="text"]:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.coupon-section button {
+  padding: 10px 18px;
+  background-color: #16a085;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.coupon-section button:hover {
+  background-color: #138d75;
+}
+
+.cart-col {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Ensures center alignment */
+  gap: 6px;
+  padding: 8px 0;
+  text-align: center;
+}
+
+
+.cart-col button {
+  padding: 3px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #030303;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-col button:hover {
+  background-color: #fa0d0d;
+}

@@ -1,0 +1,61 @@
+/* General Styles for the About Us Section */
+.about-container {
+  max-width: 900px; /* Restrict max width for better readability */
+  margin: 0 auto; /* Center the container */
+  padding: 70px; /* Add padding inside the container */
+  background-color: #f9f9f9; /* Light background */
+  border-radius: 50px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  font-family: 'Arial', sans-serif; /* General font for readability */
+}
+
+/* Heading Styles */
+.about-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333; /* Dark color for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  font-weight: 600;
+}
+
+/* Paragraph Styles */
+.about-container p {
+  line-height: 1.6; /* Line height for better readability */
+  font-size: 1.1rem;
+  color: #555; /* Lighter text color */
+  margin-bottom: 20px; /* Space between paragraphs */
+}
+
+/* Contact Information Styles */
+.contact-info {
+  background-color: #fff; /* White background for contact section */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow */
+  margin-top: 20px;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  color: #333;
+  margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 20px; /* Less padding on smaller screens */
+  }
+
+  .about-container h1 {
+    font-size: 2rem; /* Smaller heading for mobile */
+  }
+
+  .about-container p {
+    font-size: 1rem; /* Adjust paragraph size for mobile */
+  }
+
+  .contact-info p {
+    font-size: 0.9rem; /* Slightly smaller font for mobile */
+  }
+}
